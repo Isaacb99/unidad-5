@@ -1,0 +1,136 @@
+/* propiedades h1 */
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/imagen\ principal.jpg);
+}
+
+/* propiedades boton pagina principal  */
+#principal {
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+/* propiedades boton cerrar session */
+#cerrar_sesion{
+    position: absolute;
+    bottom: 0px;
+    left: 585px;
+    height: 50px;
+    width: 50px;
+}
+/* propiedades mensaje bienvenida */
+#parf{
+    position: absolute;
+    color: black;
+    top: 80px;
+    left: 320px;
+    font-size: 110px;
+    
+}
+#bienvenida{
+    position: absolute;
+    left: 379px;
+    top: 300px;
+    height: 100px;
+    width: 520px;
+    background-color: #e9846d;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#parrafo{
+    position: absolute;
+    color: black;
+    top: 8px;
+    left: 8px;
+    font-size: 20px;
+    width: 500px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* propiedades del formulario de compartir recetas */
+#titulo{
+    position: absolute;
+    top: 52px;
+    left: 250px;
+    font-size: 100px;
+}
+#div1{
+    position: absolute;
+    left: 290px;
+    top: 200px;
+    width: 300px;
+}
+#div2{
+    position: absolute;
+    left: 690px;
+    top: 200px;
+    width: 300px;
+}
+#div3{
+    position: absolute;
+    left: 290px;
+    top : 300px;
+    height: 200px;
+    width: 700px;
+}
+#boton{
+    position: absolute;
+    left: 592px;
+    top: 450px;
+    width: 100px;
+    height: 45px;
+}
+#label{
+    font-family: 'Montserrat', sans-serif;
+}
+/* propiedades de la pagina de receta agregad */
+#titulo2{
+    position: absolute;
+    top: 140px;
+    left: 360px;
+    font-size: 50px;
+}
+#boton_terminar{
+    position: absolute;
+    left: 608px;
+    top: 300px;
+}
+/* propiedades de la pagina de ranking */ 
+#div_ranking{
+    position: absolute;
+    left: 425px;
+    top: 130px;
+    height: 50px;
+    width: 700px;
+}
+#div_ranking2{
+    position:relative;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+}
+#texto{
+    font-family: 'Lato', sans-serif;
+    color: #575029;
+    text-decoration: none;
+}
+#div_ranking3{
+    position: relative;
+    left: 58px;
+    top: 0px;
+    width: 200px;
+    color: #575029;
+}
+#boton_ranking{
+    position: absolute;
+    left: 182px;
+    top: 350px;
+}
+#titulo3{
+    position: absolute;
+    top: 60px;
+    left: 530px;
+    font-size: 50px;
+}

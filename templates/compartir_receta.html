@@ -1,0 +1,20 @@
+{% extends "base_template.html" %}
+{% block title %}Compartir Receta{% endblock %}
+{% block content %}
+    <h1 id = 'titulo'>Compartir receta</h1>
+    <form action= "{{ url_for('compartirReceta') }}" method="post">
+        <div class="mb-3" id ='div1'>
+            <label for="nombre" class="form-label" id = 'label'>Nombre de la receta</label>
+            <input type="text" name = 'nombre' class="form-control" id="exampleFormControlInput1" placeholder="ejemplo: pollo asado">
+        </div>
+        <div class="mb-3" id ='div2'>
+            <label for="tiempo" class="form-label" id = 'label'>Tiempo en minutos</label>
+            <input type="number" name = 'tiempo' class="form-control" id="exampleFormControlInput1" placeholder="100 minutos">
+        </div>
+        <div class="mb-3" id = 'div3'>
+            <label for="elaboracion" class="form-label" id = 'label'>Elaboracion</label>
+            <textarea class="form-control" name = 'elaboracion' id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aqui la elaboracion de la receta"></textarea>
+        </div>
+        <input type="submit" value="Guardar" class="btn btn-secondary" id = 'boton'>
+    </form>
+{% endblock %}

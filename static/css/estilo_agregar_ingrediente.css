@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../img/imagen\ principal.jpg);
+}
+/* propiedades formularios */
+#div1{
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    width: 400px;
+}
+#div2{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 400px;
+}
+#div3{
+    position: absolute;
+    left: 80px;
+    top: 400px;
+    width: 400px;
+}
+/* propiedades boton terminar */
+#boton{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    width: 150px;
+}
+/* propiedades del titulo */
+#titulo{
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    font-size: 50px;
+    width: 1200px;
+}

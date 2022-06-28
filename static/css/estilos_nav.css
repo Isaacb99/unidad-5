@@ -1,0 +1,18 @@
+
+#compartir{
+    position: absolute;
+    left: 620px;
+}
+#ranking{
+    position: absolute;
+    left: 780px;
+}
+#receta{
+    position: absolute;
+    left: 950px;
+}
+
+#drop{
+    position: relative;
+    left: 1100px;
+}

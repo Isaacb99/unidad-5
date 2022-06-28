@@ -1,0 +1,6 @@
+{% extends "base_template.html" %}
+{% block title %}{{ nombre_receta }}{% endblock %}
+{% block content %}
+    <h1 id = 'titulo2'>Receta "{{ nombre_receta }}" agregada</h1>
+    <a href="{{ url_for('compartirReceta') }}" class="btn btn-primary" id = 'boton_terminar'>Volver</a>
+{% endblock %}

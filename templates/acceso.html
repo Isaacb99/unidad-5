@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar sesión</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo_login.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="form-signin w-100 m-auto">
+            <form action="{{ url_for('iniciarSesion') }}" method="post" id = 'form'>
+                <h1 class="h3 mb-3 fw-normal">Inicio de Sesión</h1>
+            
+                <div class="form-floating">
+                    <label for = "email" id = 'label1'>Direccion de correo</label>
+                    <input type = "text" name = "email" class="form-control" id="floatingInput" placeholder="Nombre@Ejemplo.com">
+                    
+                </div>
+                <div class="form-floating">
+                    <label for = "password" id = 'label2'>Password</label>
+                    <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                    
+                </div>
+            
+                <div class="checkbox mb-3" id = 'check'>
+                    <label>
+                    <input type="checkbox" value="remember-me"> Recordar usuario</input>
+                    </label>
+                </div>
+                <input class="w-100 btn btn-lg btn-primary" type="submit" value="Iniciar sesión" id = 'inicio'/>
+                <p class="mt-5 mb-3 text-muted">© 2022 </p>
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{% extends "base_template.html" %}
+{% block title %}{{titulo}}{% endblock %}
+{% block content %}
+    <h1 id ='titulo3'>{{ titulo }}</h1>
+    <div id = 'div_ranking'>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Cantidad Me Gusta</th>
+            </tr>
+        </thead>
+    {% for una_receta in recetas %}
+        <tbody>
+    <tr>
+        <td id = 'div_ranking2'><a href="{{ url_for('mostrarReceta', id_receta=una_receta.id) }}" id = 'texto'><h2>{{ una_receta.nombre }}</h2></a></td>
+        <td id = 'div_ranking3'><h5>{{ una_receta.cantidadMeGusta }}</h5></td>
+    </tr>
+    {% endfor %}
+    </table>
+    <button type="button" onclick="history.go(-1)" class="btn btn-primary" id = 'boton_ranking'>Volver</button>
+    </div>
+{% endblock %}
